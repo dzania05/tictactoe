@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic-Tac-Toe Game</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="gamewrapper">
+		<h1>Tic Tac Toe Game</h1>
+		<div class="gridwrapper">
+			<p>How many grid do you want?</p>
+			<input type="number" name="" id="grid">
+			<button onclick="selectGrid()">Start Game</button>
+		</div>
+		<div id="boardgame"></div>
+		<span id='turn' style="display: none;">Turn: Player X <button onclick="reset()">Reset</button></span>
+	</div>
+	<script type="text/javascript" src="js/index.js"></script>	
+
+</body>
+</html>

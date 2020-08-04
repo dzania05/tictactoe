@@ -1,0 +1,37 @@
+#gamewrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridwrapper {
+    text-align: center;
+}
+
+button {
+    background: #00ad37;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input {
+    padding: 8px;
+    border-radius: 5px;
+}
+
+table {
+	border-collapse:collapse;
+}
+
+td {
+	background-color: #f99191;
+	border: 3px solid white;
+	font-size:80px;
+	color:#ffffff;
+	border-radius: 10px 10px 10px 10px;
+}
